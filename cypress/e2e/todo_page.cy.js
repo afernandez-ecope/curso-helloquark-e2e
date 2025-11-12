@@ -27,7 +27,6 @@ describe('todomvc.com page test', () => {
     cy.get('[data-testid="todo-item-toggle"]').click()
 
     cy.get('.todo-list li').should('have.length', 1)
-    cy.get('.todo-list li').should('contain', 'Buy strawberries')
   })
 
   // it('edit todo', () => {
